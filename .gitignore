@@ -1,6 +1,8 @@
 /bin/
 MushroomCloud/bin/
 Valkyrie/build/
+venv
+.vscode
 
 .idea/
 
@@ -12,3 +14,4 @@ perf.data.old
 
 test/tpch.db
 test/tpch-dbgen
+cmake-build-debug

@@ -1,10 +1,5 @@
 /*
  * SQL Evaluator Engine
- * Authors: Arindam Nandi
- * 			Saptarshi Bhattacharjee
- * 			Sayaritra Pal
- * 
- * Spring 2015
  */
 
 package edu.buffalo.cse562;
@@ -17,7 +12,6 @@ import java.nio.file.Files;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
-//import java.util.function.Consumer;
 
 import org.json.JSONObject;
 

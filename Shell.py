@@ -2,6 +2,7 @@
 
 import subprocess
 
+
 def promptLoop():
 	while(True):
 		query = raw_input("valkyrie> ")
@@ -22,6 +23,7 @@ def promptLoop():
 		valkyrie = subprocess.Popen(['./bin/llvmruntime'], stdin=subprocess.PIPE, stdout=subprocess.PIPE)
 		result = valkyrie.communicate(input=json)
 		print result[0]
+
 
 if __name__ == "__main__":
 	promptLoop()
